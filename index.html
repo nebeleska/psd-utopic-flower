@@ -9,7 +9,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,23 +48,24 @@
         <section class="quotation">
             <div class="container">
                 <div class="row">
-                    <div class="col12">
+                    <div class="col-xl">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper mi nec velit dapibus, id auctor libero vehicula.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="carousel">
             <div class="carousel" data-flickity>
                 <div class="carousel-cell"></div>
                 <div class="carousel-cell"></div>
                 <div class="carousel-cell"></div>
             </div>
         </section>
-        <section>
+        <section class="info">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4"><i class="fas fa-bus"></i>
+                    <div class="col-sm-4">
+                        <i class="fas fa-bus"></i>
                         <div class="content">
                             <h2>Lorem ipsum dolor</h2>
                             <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aen ean nunc aenean quis nam nis.</p>
@@ -86,26 +88,26 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
+        <section class="photo">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="content">
-                            <img src="img/1.jpg" style="width:100%">
+                            <img src="assets/images/1.jpg" style="width:100%">
                             <h3>Lorum ipsum dolor</h3>
                             <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="content">
-                            <img src="img/2.jpg" style="width:100%">
+                            <img src="assets/images/2.jpg" style="width:100%">
                             <h3>Lorum ipsum dolor</h3>
                             <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="content">
-                            <img src="img/3.jpg" style="width:100%">
+                            <img src="assets/images/3.jpg" style="width:100%">
                             <h3>Lorum ipsum dolor</h3>
                             <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
                         </div>
@@ -113,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="information">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-3">
@@ -161,12 +163,13 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="Copyright">
+                Copyright © 2013 - All Rights Reserved - Domain Name
+            </div>
+        </footer>
     </main>
-    <footer>
-        <div class="Copyright">
-            Copyright © 2013 - All Rights Reserved - Domain Name
-        </div>
-    </footer>
 </body>
+<script src="assets/scripts/main.js"></script>
 
 </html>
