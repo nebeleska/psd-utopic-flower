@@ -1,5 +1,1 @@
-$('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true
-});
+"use strict";$(".main-carousel").flickity({cellAlign:"left",contain:!0});
